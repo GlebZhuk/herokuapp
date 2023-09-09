@@ -16,8 +16,8 @@ public class BaseTest {
         driver = new ChromeDriver(chromeOptions);
     }
 
-    @AfterClass
+/*    @AfterClass
     public void closeDriver() {
         driver.quit();
-    }
+    }*/
 }
